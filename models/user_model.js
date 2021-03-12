@@ -18,3 +18,5 @@ const User = Schema({
         required : true,
     }
 })
+
+module.exports = mongoose.model("User",User)
